@@ -1,23 +1,35 @@
-# U.S.WakeUpCall
-A research document intended to liberate the mind of the middle class American.
-[WakeUpCallFINAL V3 copy.pdf](https://github.com/user-attachments/files/20153073/WakeUpCallFINAL.V3.copy.pdf)
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Research Paper</ModernDayEnslavementofthe99%>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Display</title>
     <style>
-        body { font-family: Times, sans-serif; margin: 40px; text-align: center; }
-        .paper { max-width: 800px; margin: auto; }
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            color: #333;
+        }
+        .pdf-container {
+            max-width: 100%;
+            height: 80vh;
+            margin: 0 auto;
+        }
+        embed {
+            width: 100%;
+            height: 100%;
+        }
     </style>
 </head>
 <body>
-    <div class="paper">
-        <h1>Paper Title</h1>
-        <p>Author Name(s)</p>
-        <p><a href="paper.pdf">Download PDF</a></p>
-        <!-- Embed HTML version if available -->
-        <iframe src="paper.html" width="100%" height="600px"></iframe>
+    <h1>Modern Day Enslavement of The 99%</h1>
+    <div class="pdf-container">
+        <embed src="document.pdf" type="application/pdf">
     </div>
 </body>
 </html>
